@@ -8,11 +8,11 @@ def wBot(path = '/html/body/div[1]/div/div/div[3]/div/div[2]/div[1]/div/div/div[
     driver = webdriver.Firefox()
     driver.get("https://web.whatsapp.com/")
     try:
-        wbot = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH,path)))
+        wbot = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH,path)))
         wbot = driver.find_element_by_xpath(path)
         wbot.click()
         msg = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]')
-        f = open('test.txt', 'r')
+        f = open('wallE.txt', 'r')
         for word in f:
             msg.send_keys(word)
             msg.send_keys(Keys.RETURN)

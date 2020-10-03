@@ -660,3 +660,83 @@ JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: thi
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1601720083399	geckodriver	INFO	Listening on 127.0.0.1:52459
+1601720086421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahul\\AppData\\Local\\Temp\\rust_mozprofile9OjKap"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601720091002	Marionette	INFO	Listening on port 52468
+1601720091264	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.0b52fdd0773f7751f5d9.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.0b52fdd0773f7751f5d9.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.0b52fdd0773f7751f5d9.js, line 1: unreachable code after return statement
+1601720103369	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7776, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1601720122385	Marionette	INFO	Stopped listening on port 52468
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601720148752	geckodriver	INFO	Listening on 127.0.0.1:52524
+1601720151832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahul\\AppData\\Local\\Temp\\rust_mozprofileBxook1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601720156304	Marionette	INFO	Listening on port 52532
+1601720156662	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.0b52fdd0773f7751f5d9.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.0b52fdd0773f7751f5d9.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.0b52fdd0773f7751f5d9.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1601720206147	Marionette	INFO	Stopped listening on port 52532
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601720211837	geckodriver	INFO	Listening on 127.0.0.1:52580
+1601720214880	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahul\\AppData\\Local\\Temp\\rust_mozprofileLfiTK0"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601720219938	Marionette	INFO	Listening on port 52589
+1601720220193	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.0b52fdd0773f7751f5d9.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.0b52fdd0773f7751f5d9.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.0b52fdd0773f7751f5d9.js, line 1: unreachable code after return statement
+1601720237641	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+1601720436567	Marionette	INFO	Stopped listening on port 52589
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601720989775	geckodriver	INFO	Listening on 127.0.0.1:52723
+1601720992820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahul\\AppData\\Local\\Temp\\rust_mozprofileJYNK6h"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601720998825	Marionette	INFO	Listening on port 52732
+1601720999165	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601721034363	Marionette	INFO	Stopped listening on port 52732
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
