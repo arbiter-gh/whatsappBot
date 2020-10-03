@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-def wBot(path):
+def wBot(path = '/html/body/div[1]/div/div/div[3]/div/div[2]/div[1]/div/div/div[1]/div/div/div[2]'):
     driver = webdriver.Firefox()
     driver.get("https://web.whatsapp.com/")
     try:
@@ -12,9 +12,11 @@ def wBot(path):
         wbot = driver.find_element_by_xpath(path)
         wbot.click()
         msg = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]')
-        f = open('wallE.txt', 'r')
+        f = open('test.txt', 'r')
         for word in f:
             msg.send_keys(word)
             msg.send_keys(Keys.RETURN)
     finally:
-        driver.close()
+       pass
+
+wBot()
