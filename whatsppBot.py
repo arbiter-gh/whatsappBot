@@ -16,7 +16,7 @@ def wBot(path = '/html/body/div[1]/div/div/div[3]/div/div[2]/div[1]/div/div/div[
         for word in f:
             msg.send_keys(word)
             msg.send_keys(Keys.RETURN)
-    finally:
+    finally: 
        pass
 
 wBot()
