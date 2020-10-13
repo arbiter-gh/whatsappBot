@@ -12,8 +12,6 @@ def wBot(path = '//span[@title = "wBot"]'):
         wbot = driver.find_element_by_xpath(path)
         wbot.click()
         msg = driver.find_element_by_xpath('//div[@class = "_3FRCZ copyable-text selectable-text"][@data-tab = "1"]')
-
     finally: 
        pass
-
 wBot()
